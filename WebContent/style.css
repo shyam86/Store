@@ -1,0 +1,218 @@
+body{
+margin:0px auto;
+width:100%;
+background-size: 'cover';
+background: url('./images/bg.jpg') center center fixed;
+}
+.container{
+background: rgba(155,155,155,0.5);
+}
+
+
+.menu-bar{
+margin-top:1%;
+}
+.header{
+
+top:0;
+width:100%;
+padding:1%;
+}
+
+.header a{
+	text-decoration:none;
+	color:#fff;
+	padding:1%;
+}
+.slogan{
+display:block;
+position:absolute;
+top:25px;
+left:70px;
+}
+
+.menu-items{
+list-style-type:none;
+margin:1% 0px 0px 0px; 
+font-size:150%;
+font-weight:bold;
+}
+.menu-items li{
+margin:1%; 
+list-style-type:none;
+display:block;
+float:left;
+line-height:40px;
+height:40px;
+padding:0 2%;
+background-image:url(images/line.gif);
+background-position:top right;
+background-repeat:no-repeat;
+
+}
+
+.menu-items li a{
+text-decoration:none;
+color:#f04;
+}
+
+.menu-items li a:hover{
+text-decoration:none;
+background-color:#f04;
+color:#fff;
+padding:8px;
+
+}
+a.active{
+background: rgba(200,050,020,0.2);
+color:#f5c;
+padding:5px;
+}
+
+.content{
+
+min-height:500px;
+padding:10%;
+margin-left:3%;
+}
+.heading{
+text-align:center;
+font-size:150%;
+font-weight:bold;
+margin-bottom:20px;
+}
+.footer{
+background: #000;
+color:#fff;
+bottom:0;
+width:98%;
+padding:1%;
+text-align:center;
+}
+.felements{
+font-color:#4589a1;
+font-size:100%;
+font-weight:bold;
+}
+div.img {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #ff0000;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}	
+
+div.img img {
+    display: inline;
+    margin: 5px;
+    border: 1px solid #ffffff;
+	 opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+
+div.img a:hover img {
+    border: 1px solid #0000ff;
+	 opacity: 1.0;
+    filter: alpha(opacity=100); 
+}
+
+div.desc {
+  text-align: center;
+  font-weight: normal;
+  width: 120px;
+  margin: 5px;
+}
+/* #### Dark Matter #### */
+.dark-matter {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    background:  rgba(85, 85, 85,0.5);
+    padding: 20px 30px 20px 30px;
+    font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #D3D3D3;
+    text-shadow: 1px 1px 1px #444;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+.dark-matter h1 {
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom: 1px solid #444;
+    margin: -10px -30px 30px -30px;
+}
+.dark-matter h1>span {
+    display: block;
+    font-size: 11px;
+}
+.dark-matter label {
+    display: block;
+    margin: 0px 0px 5px;
+}
+.dark-matter label>span {
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.dark-matter input[type="text"], .dark-matter input[type="password"],.dark-matter input[type="email"],.dark-matter textarea,  .dark-matter select {
+    border: none;
+    color: #525252;
+    height: 25px;
+    line-height:15px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 5px 0px 5px 5px;
+    width: 50%;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    background: #DFDFDF;
+}
+.dark-matter select {
+    background: #DFDFDF url('down-arrow.png') no-repeat right;
+    background: #DFDFDF url('down-arrow.png') no-repeat right;
+    appearance:none;
+    -webkit-appearance:none; 
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: 50%;
+    height: 35px;
+    color: #525252;
+    line-height: 25px;
+}
+.dark-matter textarea{
+    height:100px;
+    padding: 5px 0px 0px 5px;
+    width: 70%;
+}
+.dark-matter .button {
+    background: #FFCC02;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #585858;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    text-shadow: 1px 1px 1px #FFE477;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px #3D3D3D;
+    -webkit-box-shadow:1px 1px 1px #3D3D3D;
+    -moz-box-shadow:1px 1px 1px #3D3D3D;
+}
+
+.dark-matter .button:hover {
+    color: #333;
+    background-color: #EBEBEB;
+}
+
